@@ -1,20 +1,56 @@
-body{
-  background-color:antiquewhite;
+body {
+  background-color: antiquewhite;
 
 }
-header{
+
+header {
   display: block;
   color: brown;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   padding-bottom: 0px;
-  border-bottom: 7px solid ;
-  
+  border-bottom: 7px solid;
 
 
-  
+
+
 }
-h1{
+
+h1 {
   margin: 0%;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 40px;
+}
+
+section {
+  background-color: lightsalmon;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: solid 10px brown;
+  text-align: center;
+  width:20%;
+  min-width:250px;
+
+}
+
+h2 {
+  color: brown;
+  text-align: center;
+  padding: 10px 20px;
+  margin: auto;
+  text-decoration: underline;
+}
+
+img{
+  
 }
